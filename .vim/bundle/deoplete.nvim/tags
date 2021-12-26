@@ -1,0 +1,414 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+-follow-imports	Makefile	/^	mypy --ignore-missing-imports --follow-imports=skip --strict rplugin\/python3\/deoplete$/;"	m
+AsyncParent	rplugin/python3/deoplete/parent.py	/^class AsyncParent(_Parent):$/;"	c
+BASE_DIR	test/conftest.py	/^BASE_DIR = Path(__file__).parent.parent$/;"	v
+Base	rplugin/python3/deoplete/base/filter.py	/^class Base(LoggingMixin):$/;"	c
+Base	rplugin/python3/deoplete/base/source.py	/^class Base(LoggingMixin):$/;"	c
+Base	rplugin/python3/deoplete/filter/base.py	/^class Base(_Base):$/;"	c
+Base	rplugin/python3/deoplete/source/base.py	/^class Base(_Base):$/;"	c
+Candidate	rplugin/python3/deoplete/util.py	/^Candidate = typing.Dict[str, typing.Any]$/;"	v
+Candidates	rplugin/python3/deoplete/child.py	/^Candidates = typing.List[typing.Dict[str, typing.Any]]$/;"	v
+Candidates	rplugin/python3/deoplete/deoplete.py	/^Candidates = typing.Dict[str, typing.Any]$/;"	v
+Candidates	rplugin/python3/deoplete/util.py	/^Candidates = typing.List[Candidate]$/;"	v
+Child	rplugin/python3/deoplete/child.py	/^class Child(logger.LoggingMixin):$/;"	c
+Context	rplugin/python3/deoplete/__init__.py	/^Context = typing.Dict[str, typing.Any]$/;"	v
+Context	rplugin/python3/deoplete/context.py	/^class Context(object):$/;"	c
+Deoplete	rplugin/python3/deoplete/deoplete.py	/^class Deoplete(logger.LoggingMixin):$/;"	c
+DeopleteHandlers	rplugin/python3/deoplete/__init__.py	/^    class DeopleteHandlers(object):$/;"	c
+DeopleteLogFilter	rplugin/python3/deoplete/logger.py	/^class DeopleteLogFilter(logging.Filter):$/;"	c
+FUNC	rplugin/python3/deoplete/logger.py	/^FUNC = typing.Callable[..., typing.Any]$/;"	v
+Filter	rplugin/python3/deoplete/filter/converter_auto_delimiter.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_auto_paren.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_case.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_remove_overlap.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_remove_paren.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_reorder_attr.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_truncate_abbr.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_truncate_info.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_truncate_kind.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_truncate_menu.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/converter_word_abbr.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/matcher_cpsm.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/matcher_full_fuzzy.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/matcher_fuzzy.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/matcher_head.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/matcher_length.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/matcher_matchfuzzy.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/sorter_rank.py	/^class Filter(Base):$/;"	c
+Filter	rplugin/python3/deoplete/filter/sorter_word.py	/^class Filter(Base):$/;"	c
+LINES_MAX	rplugin/python3/deoplete/filter/sorter_rank.py	/^LINES_MAX = 150$/;"	v
+LoggingMixin	rplugin/python3/deoplete/logger.py	/^class LoggingMixin(object):$/;"	c
+PATH	Makefile	/^PATH := .\/vim-themis\/bin:$(PATH)$/;"	m
+Parent	rplugin/python3/deoplete/deoplete.py	/^Parent = typing.Union[deoplete.parent.SyncParent, deoplete.parent.AsyncParent]$/;"	v
+Process	rplugin/python3/deoplete/process.py	/^class Process(asyncio.SubprocessProtocol):$/;"	c
+RedirectStream	autoload/deoplete/_main.py	/^class RedirectStream(io.IOBase):$/;"	c
+Result	rplugin/python3/deoplete/child.py	/^Result = typing.Dict[str, typing.Any]$/;"	v
+Source	rplugin/python3/deoplete/source/around.py	/^class Source(Base):$/;"	c
+Source	rplugin/python3/deoplete/source/buffer.py	/^class Source(Base):$/;"	c
+Source	rplugin/python3/deoplete/source/file.py	/^class Source(Base):$/;"	c
+Source	rplugin/python3/deoplete/source/member.py	/^class Source(Base):$/;"	c
+Source	rplugin/python3/deoplete/source/omni.py	/^class Source(Base):$/;"	c
+SourceInitError	rplugin/python3/deoplete/exceptions.py	/^class SourceInitError(Exception):$/;"	c
+SyncParent	rplugin/python3/deoplete/parent.py	/^class SyncParent(_Parent):$/;"	c
+THEMIS_ARGS	Makefile	/^export THEMIS_ARGS := -e -s --headless$/;"	m
+THEMIS_HOME	Makefile	/^export THEMIS_HOME := .\/vim-themis$/;"	m
+THEMIS_VIM	Makefile	/^export THEMIS_VIM  := nvim$/;"	m
+UserContext	rplugin/python3/deoplete/child.py	/^UserContext = typing.Dict[str, typing.Any]$/;"	v
+UserContext	rplugin/python3/deoplete/context.py	/^UserContext = typing.Dict[str, typing.Any]$/;"	v
+UserContext	rplugin/python3/deoplete/deoplete.py	/^UserContext = typing.Dict[str, typing.Any]$/;"	v
+UserContext	rplugin/python3/deoplete/parent.py	/^UserContext = typing.Dict[str, typing.Any]$/;"	v
+UserContext	rplugin/python3/deoplete/util.py	/^UserContext = typing.Dict[str, typing.Any]$/;"	v
+_Parent	rplugin/python3/deoplete/parent.py	/^class _Parent(logger.LoggingMixin):$/;"	c
+__init__	autoload/deoplete/_main.py	/^    def __init__(self, handler):$/;"	m	class:RedirectStream
+__init__	rplugin/python3/deoplete/__init__.py	/^        def __init__(self, _vim: Nvim):$/;"	m	class:DeopleteHandlers
+__init__	rplugin/python3/deoplete/base/filter.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Base
+__init__	rplugin/python3/deoplete/base/source.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Base
+__init__	rplugin/python3/deoplete/child.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Child
+__init__	rplugin/python3/deoplete/context.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Context
+__init__	rplugin/python3/deoplete/deoplete.py	/^    def __init__(self, vim: Nvim):$/;"	m	class:Deoplete
+__init__	rplugin/python3/deoplete/filter/base.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Base
+__init__	rplugin/python3/deoplete/filter/converter_auto_delimiter.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_auto_paren.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_case.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_remove_overlap.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_remove_paren.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_reorder_attr.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_truncate_abbr.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_truncate_info.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_truncate_kind.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_truncate_menu.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/converter_word_abbr.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/matcher_cpsm.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/matcher_full_fuzzy.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/matcher_fuzzy.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/matcher_head.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/matcher_length.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/matcher_matchfuzzy.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/sorter_rank.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/filter/sorter_word.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Filter
+__init__	rplugin/python3/deoplete/logger.py	/^    def __init__(self, vim: Nvim, name: str = ''):$/;"	m	class:DeopleteLogFilter
+__init__	rplugin/python3/deoplete/parent.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:_Parent
+__init__	rplugin/python3/deoplete/process.py	/^    def __init__(self, plugin: typing.Any) -> None:$/;"	m	class:Process
+__init__	rplugin/python3/deoplete/source/around.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Source
+__init__	rplugin/python3/deoplete/source/base.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Base
+__init__	rplugin/python3/deoplete/source/buffer.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Source
+__init__	rplugin/python3/deoplete/source/file.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Source
+__init__	rplugin/python3/deoplete/source/member.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Source
+__init__	rplugin/python3/deoplete/source/omni.py	/^    def __init__(self, vim: Nvim) -> None:$/;"	m	class:Source
+_add_filter	rplugin/python3/deoplete/child.py	/^    def _add_filter(self, path: str) -> None:$/;"	m	class:Child
+_add_parent	rplugin/python3/deoplete/deoplete.py	/^    def _add_parent(self, parent_cls: typing.Callable[$/;"	m	class:Deoplete
+_add_source	rplugin/python3/deoplete/child.py	/^    def _add_source(self, path: str) -> None:$/;"	m	class:Child
+_cache_context_filetype	rplugin/python3/deoplete/context.py	/^    def _cache_context_filetype(self, text: str, filetype: str,$/;"	m	class:Context
+_check_recache	rplugin/python3/deoplete/deoplete.py	/^    def _check_recache(self, context: UserContext) -> None:$/;"	m	class:Deoplete
+_connect_stdin	rplugin/python3/deoplete/parent.py	/^    def _connect_stdin(self, stdin: int) -> msgpack.Unpacker:$/;"	m	class:AsyncParent
+_ctx	test/rplugin/python3/deoplete/test_matcher_fuzzy.py	/^def _ctx(complete_str, ignorecase=True, camelcase=True):$/;"	f
+_enable_logging	rplugin/python3/deoplete/child.py	/^    def _enable_logging(self) -> None:$/;"	m	class:Child
+_find_rplugins	rplugin/python3/deoplete/deoplete.py	/^    def _find_rplugins(self, source: str) -> typing.List[Path]:$/;"	m	class:Deoplete
+_gather_async_results	rplugin/python3/deoplete/child.py	/^    def _gather_async_results(self, result: Result,$/;"	m	class:Child
+_gather_results	rplugin/python3/deoplete/child.py	/^    def _gather_results(self, context: UserContext) -> typing.List[Result]:$/;"	m	class:Child
+_get	rplugin/python3/deoplete/parent.py	/^    def _get(self, queue_id: str) -> typing.List[typing.Any]:$/;"	m	class:AsyncParent
+_get_candidates	rplugin/python3/deoplete/child.py	/^    def _get_candidates(self, result: Result,$/;"	m	class:Child
+_get_complete_position	rplugin/python3/deoplete/source/omni.py	/^    def _get_complete_position(self, context: UserContext,$/;"	m	class:Source
+_get_context_filetype	rplugin/python3/deoplete/context.py	/^    def _get_context_filetype(self,$/;"	m	class:Context
+_get_cpsm_result	rplugin/python3/deoplete/filter/matcher_cpsm.py	/^    def _get_cpsm_result(self, candidates: Candidates,$/;"	m	class:Filter
+_get_python_executable	rplugin/python3/deoplete/parent.py	/^    def _get_python_executable(self) -> str:$/;"	m	class:AsyncParent
+_get_result	rplugin/python3/deoplete/child.py	/^    def _get_result(self, context: UserContext,$/;"	m	class:Child
+_get_results	rplugin/python3/deoplete/deoplete.py	/^    def _get_results(self, context: UserContext) -> typing.List[typing.Any]:$/;"	m	class:Deoplete
+_get_sources	rplugin/python3/deoplete/child.py	/^    def _get_sources(self) -> typing.Dict[str, typing.Any]:$/;"	m	class:Child
+_handle_source_exception	rplugin/python3/deoplete/child.py	/^    def _handle_source_exception(self,$/;"	m	class:Child
+_init_cached	rplugin/python3/deoplete/context.py	/^    def _init_cached(self) -> None:$/;"	m	class:Context
+_init_cached_filetype	rplugin/python3/deoplete/context.py	/^    def _init_cached_filetype(self, filetype: str) -> UserContext:$/;"	m	class:Context
+_init_cpsm	rplugin/python3/deoplete/filter/matcher_cpsm.py	/^    def _init_cpsm(self, context: UserContext) -> str:$/;"	m	class:Filter
+_is_skip	rplugin/python3/deoplete/child.py	/^    def _is_skip(self, context: UserContext, source: typing.Any) -> bool:$/;"	m	class:Child
+_itersource	rplugin/python3/deoplete/child.py	/^    def _itersource(self, context: UserContext$/;"	m	class:Child
+_load_filters	rplugin/python3/deoplete/deoplete.py	/^    def _load_filters(self, context: UserContext) -> None:$/;"	m	class:Deoplete
+_load_sources	rplugin/python3/deoplete/deoplete.py	/^    def _load_sources(self, context: UserContext) -> None:$/;"	m	class:Deoplete
+_logger	rplugin/python3/deoplete/logger.py	/^    _logger = None  # type: logging.Logger$/;"	v	class:LoggingMixin
+_longest_path_that_exists	rplugin/python3/deoplete/source/file.py	/^    def _longest_path_that_exists(self, context: UserContext,$/;"	m	class:Source
+_make_cache	rplugin/python3/deoplete/source/buffer.py	/^    def _make_cache(self, context: UserContext) -> None:$/;"	m	class:Source
+_merge_results	rplugin/python3/deoplete/child.py	/^    def _merge_results(self, context: UserContext,$/;"	m	class:Child
+_merge_results	rplugin/python3/deoplete/deoplete.py	/^    def _merge_results(self, context: UserContext) -> typing.Tuple[$/;"	m	class:Deoplete
+_on_event	rplugin/python3/deoplete/child.py	/^    def _on_event(self, context: UserContext) -> None:$/;"	m	class:Child
+_print_error	rplugin/python3/deoplete/parent.py	/^    def _print_error(self, message: str) -> None:$/;"	m	class:AsyncParent
+_process_filter	rplugin/python3/deoplete/child.py	/^    def _process_filter(self, f: typing.Any,$/;"	m	class:Child
+_profile_end	rplugin/python3/deoplete/child.py	/^    def _profile_end(self, name: str) -> None:$/;"	m	class:Child
+_profile_start	rplugin/python3/deoplete/child.py	/^    def _profile_start(self, context: UserContext, name: str) -> None:$/;"	m	class:Child
+_put	rplugin/python3/deoplete/parent.py	/^    def _put(self, name: str,$/;"	m	class:AsyncParent
+_put	rplugin/python3/deoplete/parent.py	/^    def _put(self, name: str,$/;"	m	class:SyncParent
+_put	rplugin/python3/deoplete/parent.py	/^    def _put(self, name: str,$/;"	m	class:_Parent
+_set_context_case	rplugin/python3/deoplete/child.py	/^    def _set_context_case(self, source: typing.Any,$/;"	m	class:Child
+_set_source_attributes	rplugin/python3/deoplete/child.py	/^    def _set_source_attributes(self, context: UserContext) -> None:$/;"	m	class:Child
+_set_source_attributes	rplugin/python3/deoplete/deoplete.py	/^    def _set_source_attributes(self, context: UserContext) -> None:$/;"	m	class:Deoplete
+_start_process	rplugin/python3/deoplete/parent.py	/^    def _start_process(self) -> None:$/;"	m	class:AsyncParent
+_start_process	rplugin/python3/deoplete/parent.py	/^    def _start_process(self) -> None:$/;"	m	class:SyncParent
+_start_process	rplugin/python3/deoplete/parent.py	/^    def _start_process(self) -> None:$/;"	m	class:_Parent
+_substitute_path	rplugin/python3/deoplete/source/file.py	/^    def _substitute_path(self, context: UserContext,$/;"	m	class:Source
+_use_previous_result	rplugin/python3/deoplete/child.py	/^    def _use_previous_result(self, context: UserContext,$/;"	m	class:Child
+_write	rplugin/python3/deoplete/child.py	/^    def _write(self, stdout: typing.Any, expr: typing.Any) -> None:$/;"	m	class:Child
+add_filter	rplugin/python3/deoplete/parent.py	/^    def add_filter(self, path: str) -> None:$/;"	m	class:_Parent
+add_source	rplugin/python3/deoplete/parent.py	/^    def add_source(self, path: str) -> None:$/;"	m	class:_Parent
+attach_vim	autoload/deoplete/_main.py	/^def attach_vim(serveraddr):$/;"	f
+auto_completion_begin	rplugin/python3/deoplete/__init__.py	/^        def auto_completion_begin(self, context: Context) -> None:$/;"	m	class:DeopleteHandlers
+binary_search_begin	rplugin/python3/deoplete/util.py	/^def binary_search_begin(li: typing.List[Candidates], prefix: str) -> int:$/;"	f
+binary_search_end	rplugin/python3/deoplete/util.py	/^def binary_search_end(li: typing.List[Candidates], prefix: str) -> int:$/;"	f
+bytepos2charpos	rplugin/python3/deoplete/util.py	/^def bytepos2charpos(encoding: str, text: str, pos: int) -> int:$/;"	f
+candidates	test/rplugin/python3/deoplete/test_converter_reorder_attr.py	/^candidates = [$/;"	v
+charpos2bytepos	rplugin/python3/deoplete/util.py	/^def charpos2bytepos(encoding: str, text: str, pos: int) -> int:$/;"	f
+charwidth	rplugin/python3/deoplete/util.py	/^def charwidth(c: str) -> int:$/;"	f
+check_completion_info	autoload/deoplete/mapping.vim	/^function! s:check_completion_info(candidates) abort$/;"	f
+check_custom_option	autoload/deoplete/init.vim	/^function! s:check_custom_option(old_var, new_var) abort$/;"	f
+check_custom_var	autoload/deoplete/init.vim	/^function! s:check_custom_var(source_name, old_var, new_var) abort$/;"	f
+check_input_method	autoload/deoplete/handler.vim	/^function! s:check_input_method() abort$/;"	f
+check_required_msgpack	autoload/health/deoplete.vim	/^function! s:check_required_msgpack() abort$/;"	f
+check_required_python	autoload/health/deoplete.vim	/^function! s:check_required_python() abort$/;"	f
+check_t_list	autoload/health/deoplete.vim	/^function! s:check_t_list() abort$/;"	f
+check_timers	autoload/health/deoplete.vim	/^function! s:check_timers() abort$/;"	f
+compare	rplugin/python3/deoplete/filter/sorter_rank.py	/^        def compare(x: Candidate) -> int:$/;"	f	function:Filter.filter
+completion_begin	rplugin/python3/deoplete/deoplete.py	/^    def completion_begin(self, user_context: UserContext) -> None:$/;"	m	class:Deoplete
+completion_timer_start	autoload/deoplete/handler.vim	/^function! s:completion_timer_start(event) abort$/;"	f
+completion_timer_stop	autoload/deoplete/handler.vim	/^function! s:completion_timer_stop() abort$/;"	f
+connection_made	rplugin/python3/deoplete/process.py	/^    def connection_made(self, transport: typing.Any) -> None:$/;"	m	class:Process
+convert2candidates	rplugin/python3/deoplete/util.py	/^def convert2candidates(li: typing.Any) -> Candidates:$/;"	f
+convert2list	rplugin/python3/deoplete/util.py	/^def convert2list(expr: typing.Any) -> typing.List[typing.Any]:$/;"	f
+critical	rplugin/python3/deoplete/logger.py	/^    def critical(self, msg: str,$/;"	m	class:LoggingMixin
+debug	rplugin/python3/deoplete/logger.py	/^    def debug(self, msg: str,$/;"	m	class:LoggingMixin
+debug	rplugin/python3/deoplete/util.py	/^def debug(vim: Nvim, expr: typing.Any) -> None:$/;"	f
+define_completion_via_timer	autoload/deoplete/handler.vim	/^function! s:define_completion_via_timer(event) abort$/;"	f
+define_on_event	autoload/deoplete/handler.vim	/^function! s:define_on_event(event) abort$/;"	f
+deoplete#auto_complete	autoload/deoplete.vim	/^function! deoplete#auto_complete(...) abort$/;"	f
+deoplete#can_complete	autoload/deoplete.vim	/^function! deoplete#can_complete() abort$/;"	f
+deoplete#cancel_popup	autoload/deoplete.vim	/^function! deoplete#cancel_popup() abort$/;"	f
+deoplete#close_popup	autoload/deoplete.vim	/^function! deoplete#close_popup() abort$/;"	f
+deoplete#complete	autoload/deoplete.vim	/^function! deoplete#complete() abort$/;"	f
+deoplete#complete_common_string	autoload/deoplete.vim	/^function! deoplete#complete_common_string() abort$/;"	f
+deoplete#custom#_get	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get() abort$/;"	f
+deoplete#custom#_get_buffer	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get_buffer() abort$/;"	f
+deoplete#custom#_get_filetype_option	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get_filetype_option(name, filetype, default) abort$/;"	f
+deoplete#custom#_get_filter	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get_filter(name) abort$/;"	f
+deoplete#custom#_get_option	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get_option(name) abort$/;"	f
+deoplete#custom#_get_source	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get_source(source_name) abort$/;"	f
+deoplete#custom#_get_source_vars	autoload/deoplete/custom.vim	/^function! deoplete#custom#_get_source_vars(name) abort$/;"	f
+deoplete#custom#_init	autoload/deoplete/custom.vim	/^function! deoplete#custom#_init() abort$/;"	f
+deoplete#custom#_init_buffer	autoload/deoplete/custom.vim	/^function! deoplete#custom#_init_buffer() abort$/;"	f
+deoplete#custom#_update_cache	autoload/deoplete/custom.vim	/^function! deoplete#custom#_update_cache() abort$/;"	f
+deoplete#custom#buffer_filter	autoload/deoplete/custom.vim	/^function! deoplete#custom#buffer_filter(filter_name, name_or_dict, ...) abort$/;"	f
+deoplete#custom#buffer_option	autoload/deoplete/custom.vim	/^function! deoplete#custom#buffer_option(name_or_dict, ...) abort$/;"	f
+deoplete#custom#buffer_var	autoload/deoplete/custom.vim	/^function! deoplete#custom#buffer_var(source_name, name_or_dict, ...) abort$/;"	f
+deoplete#custom#filter	autoload/deoplete/custom.vim	/^function! deoplete#custom#filter(filter_name, name_or_dict, ...) abort$/;"	f
+deoplete#custom#option	autoload/deoplete/custom.vim	/^function! deoplete#custom#option(name_or_dict, ...) abort$/;"	f
+deoplete#custom#source	autoload/deoplete/custom.vim	/^function! deoplete#custom#source(source_name, name_or_dict, ...) abort$/;"	f
+deoplete#custom#var	autoload/deoplete/custom.vim	/^function! deoplete#custom#var(source_name, name_or_dict, ...) abort$/;"	f
+deoplete#disable	autoload/deoplete.vim	/^function! deoplete#disable() abort$/;"	f
+deoplete#enable	autoload/deoplete.vim	/^function! deoplete#enable() abort$/;"	f
+deoplete#enable_logging	autoload/deoplete.vim	/^function! deoplete#enable_logging(level, logfile) abort$/;"	f
+deoplete#handler#_async_timer_start	autoload/deoplete/handler.vim	/^function! deoplete#handler#_async_timer_start() abort$/;"	f
+deoplete#handler#_check_omnifunc	autoload/deoplete/handler.vim	/^function! deoplete#handler#_check_omnifunc(context) abort$/;"	f
+deoplete#handler#_check_prev_completion	autoload/deoplete/handler.vim	/^function! deoplete#handler#_check_prev_completion(event) abort$/;"	f
+deoplete#handler#_completion_begin	autoload/deoplete/handler.vim	/^function! deoplete#handler#_completion_begin(event) abort$/;"	f
+deoplete#handler#_do_complete	autoload/deoplete/handler.vim	/^function! deoplete#handler#_do_complete() abort$/;"	f
+deoplete#handler#_init	autoload/deoplete/handler.vim	/^function! deoplete#handler#_init() abort$/;"	f
+deoplete#handler#_skip_next_completion	autoload/deoplete/handler.vim	/^function! deoplete#handler#_skip_next_completion() abort$/;"	f
+deoplete#init#_channel	autoload/deoplete/init.vim	/^function! deoplete#init#_channel() abort$/;"	f
+deoplete#init#_channel_initialized	autoload/deoplete/init.vim	/^function! deoplete#init#_channel_initialized() abort$/;"	f
+deoplete#init#_custom_variables	autoload/deoplete/init.vim	/^function! deoplete#init#_custom_variables() abort$/;"	f
+deoplete#init#_disable_handler	autoload/deoplete/init.vim	/^function! deoplete#init#_disable_handler() abort$/;"	f
+deoplete#init#_enable_handler	autoload/deoplete/init.vim	/^function! deoplete#init#_enable_handler() abort$/;"	f
+deoplete#init#_initialize	autoload/deoplete/init.vim	/^function! deoplete#init#_initialize() abort$/;"	f
+deoplete#init#_is_handler_enabled	autoload/deoplete/init.vim	/^function! deoplete#init#_is_handler_enabled() abort$/;"	f
+deoplete#init#_msgpack_version_check	autoload/deoplete/init.vim	/^function! deoplete#init#_msgpack_version_check() abort$/;"	f
+deoplete#init#_option	autoload/deoplete/init.vim	/^function! deoplete#init#_option() abort$/;"	f
+deoplete#init#_prev_completion	autoload/deoplete/init.vim	/^function! deoplete#init#_prev_completion() abort$/;"	f
+deoplete#init#_python_version_check	autoload/deoplete/init.vim	/^function! deoplete#init#_python_version_check() abort$/;"	f
+deoplete#initialize	autoload/deoplete.vim	/^function! deoplete#initialize() abort$/;"	f
+deoplete#insert_candidate	autoload/deoplete.vim	/^function! deoplete#insert_candidate(number) abort$/;"	f
+deoplete#is_enabled	autoload/deoplete.vim	/^function! deoplete#is_enabled() abort$/;"	f
+deoplete#manual_complete	autoload/deoplete.vim	/^function! deoplete#manual_complete(...) abort$/;"	f
+deoplete#mapping#_can_complete	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_can_complete() abort$/;"	f
+deoplete#mapping#_complete	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_complete() abort$/;"	f
+deoplete#mapping#_complete_common_string	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_complete_common_string() abort$/;"	f
+deoplete#mapping#_dummy	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_dummy(func) abort$/;"	f
+deoplete#mapping#_init	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_init() abort$/;"	f
+deoplete#mapping#_insert_candidate	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_insert_candidate(number) abort$/;"	f
+deoplete#mapping#_prev_complete	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_prev_complete() abort$/;"	f
+deoplete#mapping#_restore_completeopt	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_restore_completeopt() abort$/;"	f
+deoplete#mapping#_rpcrequest_wrapper	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_rpcrequest_wrapper(sources) abort$/;"	f
+deoplete#mapping#_set_completeopt	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_set_completeopt(is_async) abort$/;"	f
+deoplete#mapping#_undo_completion	autoload/deoplete/mapping.vim	/^function! deoplete#mapping#_undo_completion() abort$/;"	f
+deoplete#send_event	autoload/deoplete.vim	/^function! deoplete#send_event(event, ...) abort$/;"	f
+deoplete#smart_close_popup	autoload/deoplete.vim	/^function! deoplete#smart_close_popup() abort$/;"	f
+deoplete#toggle	autoload/deoplete.vim	/^function! deoplete#toggle() abort$/;"	f
+deoplete#undo_completion	autoload/deoplete.vim	/^function! deoplete#undo_completion() abort$/;"	f
+deoplete#util#check_eskk_phase_henkan	autoload/deoplete/util.vim	/^function! deoplete#util#check_eskk_phase_henkan() abort$/;"	f
+deoplete#util#check_popup	autoload/deoplete/util.vim	/^function! deoplete#util#check_popup() abort$/;"	f
+deoplete#util#convert2list	autoload/deoplete/util.vim	/^function! deoplete#util#convert2list(expr) abort$/;"	f
+deoplete#util#get_input	autoload/deoplete/util.vim	/^function! deoplete#util#get_input(event) abort$/;"	f
+deoplete#util#get_keyword_pattern	autoload/deoplete/util.vim	/^function! deoplete#util#get_keyword_pattern(filetype) abort$/;"	f
+deoplete#util#get_next_input	autoload/deoplete/util.vim	/^function! deoplete#util#get_next_input(event) abort$/;"	f
+deoplete#util#get_syn_names	autoload/deoplete/util.vim	/^function! deoplete#util#get_syn_names() abort$/;"	f
+deoplete#util#has_yarp	autoload/deoplete/util.vim	/^function! deoplete#util#has_yarp() abort$/;"	f
+deoplete#util#indent_current_line	autoload/deoplete/util.vim	/^function! deoplete#util#indent_current_line() abort$/;"	f
+deoplete#util#neovim_version	autoload/deoplete/util.vim	/^function! deoplete#util#neovim_version() abort$/;"	f
+deoplete#util#print_debug	autoload/deoplete/util.vim	/^function! deoplete#util#print_debug(string) abort$/;"	f
+deoplete#util#print_error	autoload/deoplete/util.vim	/^function! deoplete#util#print_error(string, ...) abort$/;"	f
+deoplete#util#print_warning	autoload/deoplete/util.vim	/^function! deoplete#util#print_warning(string) abort$/;"	f
+deoplete#util#rpcnotify	autoload/deoplete/util.vim	/^function! deoplete#util#rpcnotify(method, context) abort$/;"	f
+deoplete#util#split	autoload/deoplete/util.vim	/^function! deoplete#util#split(string) abort$/;"	f
+deoplete#util#string	autoload/deoplete/util.vim	/^function! deoplete#util#string(expr) abort$/;"	f
+deoplete#util#uniq	autoload/deoplete/util.vim	/^function! deoplete#util#uniq(list) abort$/;"	f
+deoplete#util#versioncmp	autoload/deoplete/util.vim	/^function! deoplete#util#versioncmp(a, b) abort$/;"	f
+deoplete#util#vimoption2python	autoload/deoplete/util.vim	/^function! deoplete#util#vimoption2python(option) abort$/;"	f
+deoplete#util#vimoption2python_not	autoload/deoplete/util.vim	/^function! deoplete#util#vimoption2python_not(option) abort$/;"	f
+deoplete_auto_completion_begin	rplugin/python3/deoplete/__init__.py	/^    def deoplete_auto_completion_begin(context: Context) -> None:$/;"	f
+deoplete_enable_logging	rplugin/python3/deoplete/__init__.py	/^    def deoplete_enable_logging(context: Context) -> None:$/;"	f
+deoplete_init	rplugin/python3/deoplete/__init__.py	/^    def deoplete_init() -> None:$/;"	f
+deoplete_manual_completion_begin	rplugin/python3/deoplete/__init__.py	/^    def deoplete_manual_completion_begin(context: Context) -> None:$/;"	f
+deoplete_on_event	rplugin/python3/deoplete/__init__.py	/^    def deoplete_on_event(context: Context) -> None:$/;"	f
+enable_logging	rplugin/python3/deoplete/__init__.py	/^        def enable_logging(self, context: Context) -> None:$/;"	m	class:DeopleteHandlers
+enable_logging	rplugin/python3/deoplete/deoplete.py	/^    def enable_logging(self) -> None:$/;"	m	class:Deoplete
+enable_logging	rplugin/python3/deoplete/parent.py	/^    def enable_logging(self) -> None:$/;"	m	class:_Parent
+error	rplugin/python3/deoplete/logger.py	/^    def error(self, msg: str,$/;"	m	class:LoggingMixin
+error	rplugin/python3/deoplete/util.py	/^def error(vim: Nvim, expr: typing.Any) -> None:$/;"	f
+error_tb	rplugin/python3/deoplete/util.py	/^def error_tb(vim: Nvim, msg: str) -> None:$/;"	f
+error_vim	rplugin/python3/deoplete/util.py	/^def error_vim(vim: Nvim, msg: str) -> None:$/;"	f
+escape	rplugin/python3/deoplete/util.py	/^def escape(expr: str) -> str:$/;"	f
+exception	rplugin/python3/deoplete/logger.py	/^    def exception(self, msg: str,$/;"	m	class:LoggingMixin
+exists_path	rplugin/python3/deoplete/util.py	/^def exists_path(path: str) -> bool:$/;"	f
+expand	rplugin/python3/deoplete/util.py	/^def expand(path: str) -> str:$/;"	f
+fatal	rplugin/python3/deoplete/logger.py	/^    fatal = critical$/;"	v	class:LoggingMixin
+filter	rplugin/python3/deoplete/base/filter.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Base
+filter	rplugin/python3/deoplete/filter/converter_auto_delimiter.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_auto_paren.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_case.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_remove_overlap.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_remove_paren.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_reorder_attr.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_truncate_abbr.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_truncate_info.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_truncate_kind.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_truncate_menu.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/converter_word_abbr.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/matcher_cpsm.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/matcher_full_fuzzy.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/matcher_fuzzy.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/matcher_head.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/matcher_length.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/matcher_matchfuzzy.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/sorter_rank.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/filter/sorter_word.py	/^    def filter(self, context: UserContext) -> Candidates:$/;"	m	class:Filter
+filter	rplugin/python3/deoplete/logger.py	/^    def filter(self, record: logging.LogRecord) -> bool:$/;"	m	class:DeopleteLogFilter
+filter_attrs	rplugin/python3/deoplete/filter/converter_reorder_attr.py	/^    def filter_attrs(candidates: Candidates,$/;"	m	class:Filter
+fuzzy_escape	rplugin/python3/deoplete/util.py	/^def fuzzy_escape(string: str, camelcase: bool) -> str:$/;"	f
+g:loaded_deoplete	plugin/deoplete.vim	/^let g:loaded_deoplete = 1$/;"	v
+gather_candidates	rplugin/python3/deoplete/base/source.py	/^    def gather_candidates(self, context: UserContext) -> Candidates:$/;"	m	class:Base
+gather_candidates	rplugin/python3/deoplete/source/around.py	/^    def gather_candidates(self, context: UserContext) -> Candidates:$/;"	m	class:Source
+gather_candidates	rplugin/python3/deoplete/source/buffer.py	/^    def gather_candidates(self, context: UserContext) -> Candidates:$/;"	m	class:Source
+gather_candidates	rplugin/python3/deoplete/source/file.py	/^    def gather_candidates(self, context: UserContext) -> Candidates:$/;"	m	class:Source
+gather_candidates	rplugin/python3/deoplete/source/member.py	/^    def gather_candidates(self, context: UserContext) -> Candidates:$/;"	m	class:Source
+gather_candidates	rplugin/python3/deoplete/source/omni.py	/^    def gather_candidates(self, context: UserContext) -> Candidates:$/;"	m	class:Source
+get	rplugin/python3/deoplete/context.py	/^    def get(self, event: str) -> UserContext:$/;"	m	class:Context
+getLogger	rplugin/python3/deoplete/logger.py	/^def getLogger(name: str) -> logging.Logger:$/;"	f
+get_buf_option	rplugin/python3/deoplete/base/source.py	/^    def get_buf_option(self, option: str) -> typing.Any:$/;"	m	class:Base
+get_complete_position	rplugin/python3/deoplete/base/source.py	/^    def get_complete_position(self, context: UserContext) -> int:$/;"	m	class:Base
+get_complete_position	rplugin/python3/deoplete/source/file.py	/^    def get_complete_position(self, context: UserContext) -> int:$/;"	m	class:Source
+get_complete_position	rplugin/python3/deoplete/source/member.py	/^    def get_complete_position(self, context: UserContext) -> int:$/;"	m	class:Source
+get_complete_position	rplugin/python3/deoplete/source/omni.py	/^    def get_complete_position(self, context: UserContext) -> int:$/;"	m	class:Source
+get_custom	rplugin/python3/deoplete/util.py	/^def get_custom(custom: typing.Dict[str, typing.Any],$/;"	f
+get_filetype_var	rplugin/python3/deoplete/base/source.py	/^    def get_filetype_var(self, filetype: str,$/;"	m	class:Base
+get_input_pattern	rplugin/python3/deoplete/base/source.py	/^    def get_input_pattern(self, filetype: str) -> str:$/;"	m	class:Base
+get_syn_names	rplugin/python3/deoplete/util.py	/^def get_syn_names(vim: Nvim) -> typing.List[str]:$/;"	f
+get_var	rplugin/python3/deoplete/base/filter.py	/^    def get_var(self, var_name: str) -> typing.Any:$/;"	m	class:Base
+get_var	rplugin/python3/deoplete/base/source.py	/^    def get_var(self, var_name: str) -> typing.Any:$/;"	m	class:Base
+getlines	rplugin/python3/deoplete/util.py	/^def getlines(vim: Nvim, start: int = 1,$/;"	f
+global_deoplete	rplugin/python3/deoplete/__init__.py	/^    global_deoplete = Deoplete(vim)$/;"	v
+globruntime	rplugin/python3/deoplete/util.py	/^def globruntime(runtimepath: str, path: str) -> typing.List[str]:$/;"	f
+health#deoplete#check	autoload/health/deoplete.vim	/^function! health#deoplete#check() abort$/;"	f
+import_plugin	rplugin/python3/deoplete/util.py	/^def import_plugin(path: str, source: str,$/;"	f
+info	rplugin/python3/deoplete/logger.py	/^    def info(self, msg: str,$/;"	m	class:LoggingMixin
+init	rplugin/python3/deoplete/logger.py	/^init = False$/;"	v
+init_channel	rplugin/python3/deoplete/__init__.py	/^        def init_channel(self,$/;"	m	class:DeopleteHandlers
+init_context	rplugin/python3/deoplete/deoplete.py	/^    def init_context(self) -> None:$/;"	m	class:Deoplete
+init_internal_variables	autoload/deoplete/init.vim	/^function! s:init_internal_variables() abort$/;"	f
+is_debug_enabled	rplugin/python3/deoplete/logger.py	/^    is_debug_enabled = False$/;"	v	class:LoggingMixin
+is_exiting	autoload/deoplete/handler.vim	/^function! s:is_exiting() abort$/;"	f
+is_skip	autoload/deoplete/handler.vim	/^function! s:is_skip(event) abort$/;"	f
+is_skip_prev_text	autoload/deoplete/handler.vim	/^function! s:is_skip_prev_text(event) abort$/;"	f
+is_skip_text	autoload/deoplete/handler.vim	/^function! s:is_skip_text(event) abort$/;"	f
+kill_yarp	autoload/deoplete/handler.vim	/^function! s:kill_yarp() abort$/;"	f
+last_find	rplugin/python3/deoplete/filter/converter_auto_delimiter.py	/^def last_find(s: str, needles: typing.List[str]) -> typing.Optional[str]:$/;"	f
+load_external_module	rplugin/python3/deoplete/util.py	/^def load_external_module(base: str, module: str) -> None:$/;"	f
+log_format	rplugin/python3/deoplete/logger.py	/^log_format = '%(asctime)s %(levelname)-8s [%(process)d] (%(name)s) %(message)s'$/;"	v
+log_message_cooldown	rplugin/python3/deoplete/logger.py	/^log_message_cooldown = 0.5$/;"	v
+logmethod	rplugin/python3/deoplete/logger.py	/^def logmethod(func: FUNC) -> typing.Callable[[FUNC], FUNC]:$/;"	f
+main	autoload/deoplete/_main.py	/^def main(serveraddr):$/;"	f
+main	rplugin/python3/deoplete/child.py	/^    def main(self, name: str, args: typing.List[typing.Any],$/;"	m	class:Child
+main_loop	rplugin/python3/deoplete/child.py	/^    def main_loop(self, stdout: typing.Any) -> None:$/;"	m	class:Child
+manual_completion_begin	rplugin/python3/deoplete/__init__.py	/^        def manual_completion_begin(self, context: Context) -> None:$/;"	m	class:DeopleteHandlers
+matched_indentkeys	autoload/deoplete/handler.vim	/^function! s:matched_indentkeys(input) abort$/;"	f
+merge_results	rplugin/python3/deoplete/parent.py	/^    def merge_results(self,$/;"	m	class:AsyncParent
+merge_results	rplugin/python3/deoplete/parent.py	/^    def merge_results(self,$/;"	m	class:SyncParent
+on_complete_done	autoload/deoplete/handler.vim	/^function! s:on_complete_done() abort$/;"	f
+on_event	rplugin/python3/deoplete/__init__.py	/^        def on_event(self, context: Context) -> None:$/;"	m	class:DeopleteHandlers
+on_event	rplugin/python3/deoplete/base/filter.py	/^    def on_event(self, context: UserContext) -> None:$/;"	m	class:Base
+on_event	rplugin/python3/deoplete/base/source.py	/^    def on_event(self, context: UserContext) -> None:$/;"	m	class:Base
+on_event	rplugin/python3/deoplete/deoplete.py	/^    def on_event(self, user_context: UserContext) -> None:$/;"	m	class:Deoplete
+on_event	rplugin/python3/deoplete/filter/sorter_rank.py	/^    def on_event(self, context: UserContext) -> None:$/;"	m	class:Filter
+on_event	rplugin/python3/deoplete/parent.py	/^    def on_event(self, context: UserContext) -> None:$/;"	m	class:_Parent
+on_event	rplugin/python3/deoplete/source/buffer.py	/^    def on_event(self, context: UserContext) -> None:$/;"	m	class:Source
+on_event	rplugin/python3/deoplete/source/file.py	/^    def on_event(self, context: UserContext) -> None:$/;"	m	class:Source
+on_insert_leave	autoload/deoplete/handler.vim	/^function! s:on_insert_leave() abort$/;"	f
+overlap_length	rplugin/python3/deoplete/filter/converter_remove_overlap.py	/^def overlap_length(left: str, next_input_words: typing.List[str]) -> int:$/;"	f
+parse_buffer_pattern	rplugin/python3/deoplete/util.py	/^def parse_buffer_pattern(b: Buffer, pattern: str) -> typing.List[str]:$/;"	f
+parse_file_pattern	rplugin/python3/deoplete/util.py	/^def parse_file_pattern(f: typing.Iterable[str],$/;"	f
+pipe_data_received	rplugin/python3/deoplete/process.py	/^    def pipe_data_received(self, fd: int, data: typing.Any) -> None:$/;"	m	class:Process
+print	rplugin/python3/deoplete/base/source.py	/^    def print(self, expr: typing.Any) -> None:$/;"	m	class:Base
+print_error	rplugin/python3/deoplete/base/filter.py	/^    def print_error(self, expr: typing.Any) -> None:$/;"	m	class:Base
+print_error	rplugin/python3/deoplete/base/source.py	/^    def print_error(self, expr: typing.Any) -> None:$/;"	m	class:Base
+process_exited	rplugin/python3/deoplete/process.py	/^    def process_exited(self) -> None:$/;"	m	class:Process
+root	rplugin/python3/deoplete/logger.py	/^root = logging.getLogger('deoplete')$/;"	v
+s:assert	test/autoload/deoplete/custom.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:assert	test/autoload/deoplete/util.vim	/^let s:assert = themis#helper('assert')$/;"	v
+s:is_handler_enabled	autoload/deoplete/init.vim	/^  let s:is_handler_enabled = 0$/;"	v
+s:suite	test/autoload/deoplete/custom.vim	/^let s:suite = themis#suite('custom')$/;"	v
+s:suite	test/autoload/deoplete/util.vim	/^let s:suite = themis#suite('parser')$/;"	v
+set_custom	autoload/deoplete/custom.vim	/^function! s:set_custom(dest, name_or_dict, value) abort$/;"	f
+set_custom	rplugin/python3/deoplete/parent.py	/^    def set_custom(self, custom: typing.Any) -> None:$/;"	m	class:_Parent
+set_pattern	rplugin/python3/deoplete/util.py	/^def set_pattern(variable: typing.Dict[str, str],$/;"	f
+set_source_attributes	rplugin/python3/deoplete/parent.py	/^    def set_source_attributes(self, context: UserContext) -> None:$/;"	m	class:_Parent
+set_value	autoload/deoplete/custom.vim	/^function! s:set_value(dest, name, value) abort$/;"	f
+setup	rplugin/python3/deoplete/logger.py	/^def setup(vim: Nvim, level: str, output_file: str = '') -> None:$/;"	f
+still_have_issues	autoload/health/deoplete.vim	/^function! s:still_have_issues() abort$/;"	f
+strwidth	rplugin/python3/deoplete/util.py	/^def strwidth(string: str) -> int:$/;"	f
+substitute_suffix	autoload/deoplete/handler.vim	/^function! s:substitute_suffix(user_data) abort$/;"	f
+suite.custom_filter	test/autoload/deoplete/custom.vim	/^function! s:suite.custom_filter() abort$/;"	f
+suite.custom_option	test/autoload/deoplete/custom.vim	/^function! s:suite.custom_option() abort$/;"	f
+suite.custom_source	test/autoload/deoplete/custom.vim	/^function! s:suite.custom_source() abort$/;"	f
+suite.vimoption2python	test/autoload/deoplete/util.vim	/^function! s:suite.vimoption2python() abort$/;"	f
+test_binary_search	test/rplugin/python3/deoplete/test_util.py	/^def test_binary_search():$/;"	f
+test_charwidth	test/rplugin/python3/deoplete/test_filter.py	/^def test_charwidth():$/;"	f
+test_custom	test/rplugin/python3/deoplete/test_util.py	/^def test_custom():$/;"	f
+test_filter	test/rplugin/python3/deoplete/test_converter_reorder_attr.py	/^def test_filter():$/;"	f
+test_fuzzy_escapse	test/rplugin/python3/deoplete/test_filter.py	/^def test_fuzzy_escapse():$/;"	f
+test_globruntime	test/rplugin/python3/deoplete/test_util.py	/^def test_globruntime():$/;"	f
+test_matcher_full_fuzzy	test/rplugin/python3/deoplete/test_matcher_full_fuzzy.py	/^def test_matcher_full_fuzzy():$/;"	f
+test_matcher_fuzzy	test/rplugin/python3/deoplete/test_matcher_fuzzy.py	/^def test_matcher_fuzzy():$/;"	f
+test_overlap_length	test/rplugin/python3/deoplete/test_filter.py	/^def test_overlap_length():$/;"	f
+test_pos	test/rplugin/python3/deoplete/test_util.py	/^def test_pos():$/;"	f
+test_reorder	test/rplugin/python3/deoplete/test_converter_reorder_attr.py	/^def test_reorder():$/;"	f
+test_skipping	test/rplugin/python3/deoplete/test_filter.py	/^def test_skipping():$/;"	f
+test_strwidth	test/rplugin/python3/deoplete/test_filter.py	/^def test_strwidth():$/;"	f
+test_truncate	test/rplugin/python3/deoplete/test_filter.py	/^def test_truncate():$/;"	f
+test_uniq_list_dict	test/rplugin/python3/deoplete/test_util.py	/^def test_uniq_list_dict():$/;"	f
+truncate	rplugin/python3/deoplete/util.py	/^def truncate(string: str, max_width: int) -> str:$/;"	f
+truncate_skipping	rplugin/python3/deoplete/util.py	/^def truncate_skipping(string: str, max_width: int,$/;"	f
+uniq_list_dict	rplugin/python3/deoplete/util.py	/^def uniq_list_dict(li: typing.List[typing.Any]) -> typing.List[typing.Any]:$/;"	f
+vimoption2python	autoload/deoplete/util.vim	/^function! s:vimoption2python(option) abort$/;"	f
+warn	rplugin/python3/deoplete/logger.py	/^    warn = warning$/;"	v	class:LoggingMixin
+warning	rplugin/python3/deoplete/logger.py	/^    def warning(self, msg: str,$/;"	m	class:LoggingMixin
+wrapper	rplugin/python3/deoplete/logger.py	/^    def wrapper(self,  # type: ignore$/;"	f	function:logmethod
+write	autoload/deoplete/_main.py	/^    def write(self, line):$/;"	m	class:RedirectStream
+writelines	autoload/deoplete/_main.py	/^    def writelines(self, lines):$/;"	m	class:RedirectStream
